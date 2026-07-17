@@ -117,7 +117,7 @@
   padding: var(--space-1) var(--space-3);
   background: transparent;
   color: var(--primary-600);
-  border: 1px solid var(--primary-300, var(--border-default));
+  border: 1px solid var(--border-default);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-xs);
@@ -131,7 +131,7 @@
 }
 
 .editButton:hover {
-  background: var(--primary-50, var(--surface-hover));
+  background: var(--surface-hover);
 }
 
 .deleteButton {
@@ -149,5 +149,5 @@
 }
 
 .deleteButton:hover {
-  background: var(--danger-50, #f9eeed);
+  background: var(--danger-50);
 }

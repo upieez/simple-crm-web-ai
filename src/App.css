@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-6);
-  background: white;
+  background: var(--surface-card);
   min-height: 100vh;
 }
 
@@ -89,7 +89,7 @@
   padding: 4px 12px;
   border: 1px solid var(--border-default);
   border-radius: var(--radius-pill);
-  background: white;
+  background: var(--surface-card);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--text-body);
@@ -152,8 +152,8 @@
 
 .status-message.error {
   color: var(--danger-600);
-  background: var(--danger-50, #f9eeed);
-  border: 1px solid var(--danger-100, #f1d6d3);
+  background: var(--danger-50);
+  border: 1px solid var(--danger-100);
 }
 
 .filter-bar {
